@@ -1,5 +1,9 @@
 <script lang="ts" >
 	import ProductCard from "$lib/productCard.svelte";
+
+	const products: Product[] = [
+		
+	]
 </script>
 
 <div class="container h-full mx-auto flex justify-center items-center">
