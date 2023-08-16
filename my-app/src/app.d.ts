@@ -13,3 +13,8 @@ declare class Product {
 	name:string // "Coffee"
 	price: number // 5
 }
+
+declare class CartItem {
+	id: string
+	quantity: number
+}

@@ -26,7 +26,7 @@
 			<h1>SvelteKit 1.0 Store</h1>
 		</div>
 		{#each products as product}
-		<ProductCard />
+		<ProductCard product={product} />
 		{/each}
 		<div class="col-span-3">
 			<button class="btn variant-filled-primary">Checkout with Stripe API</button>
